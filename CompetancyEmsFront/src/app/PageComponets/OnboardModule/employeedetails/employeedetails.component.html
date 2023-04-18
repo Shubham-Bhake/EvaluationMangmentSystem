@@ -1,0 +1,134 @@
+<!-- <h3>Employee Details</h3>
+<div>
+   
+   <button class="btn-primary" style="margin-left: 10px;" [routerLink]="['/Onboard/employeelist']">Back</button>
+  
+<! <div class="form-group"> -->
+   <!-- <div class="container" >
+   <div>
+      <label> <b>Employee Id: </b></label>{{employee.employeeId}}
+   </div>
+   <div>
+      <label> <b>Employee Name: </b></label>{{employee.employeeName}}
+   </div>
+   <div>
+      <label> <b> Email Id: </b></label>{{employee.email}}
+   </div>
+   <div>
+      <label> <b> Designation: </b></label>{{employee.designation}}
+   </div>
+   <div>
+      <label> <b> Grade: </b></label>{{employee.grade}}
+   </div>
+
+   <div>
+      <label> <b> ResourceType: </b></label>{{employee.resourceType}}
+   </div> -->
+
+   <!-- <div>
+      <label> <b>Joining Date: </b></label>{{employee.doj}}
+   </div>
+   <div>
+      <label> <b> Total Experiences: </b></label>{{employee.totalExp}}
+   </div>
+   <div>
+      <label> <b> Reporting Manager: </b></label>{{employee.irm}}
+   </div>
+
+   <div>
+      <label> <b> Current Location: </b></label>{{employee.currentLocation}}
+   </div>
+   <div>
+      <label> <b> Current Allocation: </b></label>{{employee.currentAllocation}}
+   </div>
+   <div>
+      <label><b>Project</b></label>{{employee.project}}
+   </div>
+</div>
+</div>  -->
+<h1>Employee Details</h1>
+<div>
+   
+   <a style="margin-left: 90%;" [routerLink]="['/employeelist']">Back</a>
+  <!-- Display  employee data in Table formate-->
+<table class="table  table-bordered">
+<tbody>
+   <tr>
+      <th>Employee Id </th>
+      <td>
+         {{employee.employeeId}}
+      </td>
+   </tr> 
+  
+   <tr>
+      <th>Employee Name </th>
+      <td>
+         {{employee.employeeName}}
+      </td>
+   </tr> 
+   <tr>
+      <th>Email Id </th>
+      <td>
+         {{employee.email}}
+      </td>
+   </tr> 
+   <tr>
+      <th>Designation </th>
+      <td>
+         {{employee.designation}}
+      </td>
+   </tr> 
+   <tr>
+      <th>Grade </th>
+      <td>
+         {{employee.grade}}
+      </td>
+   </tr> 
+   <tr>
+      <th>ResourceType</th>
+      <td>
+         {{employee.resourceType}}
+      </td>
+   </tr> 
+   <tr>
+      <th>Joining Date</th>
+      <td>
+         {{employee.doj}}
+      </td>
+   </tr> 
+   <tr>
+      <th>Total Experiences</th>
+      <td>
+         {{employee.totalExp}}
+      </td>
+   </tr> 
+   <tr>
+      <th>Reporting Manager</th>
+      <td>
+         {{employee.irm}}
+      </td>
+   </tr> 
+   <tr>
+      <th>Current Location</th>
+      <td>
+         {{employee.currentLocation}}
+      </td>
+   </tr> 
+   <tr>
+      <th>Current Allocation</th>
+      <td>
+         {{employee.currentAllocation}}
+      </td>
+   </tr> 
+   <tr>
+      <th>Project</th>
+      <td>
+         {{employee.project}}
+      </td>
+   </tr> 
+</tbody>
+   
+
+   </table>
+
+

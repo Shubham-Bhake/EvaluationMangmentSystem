@@ -1,0 +1,27 @@
+.file {
+    text-align: center;
+    align-items: center;
+    
+   /*  background-color: rgb(245, 203, 148); */
+    border: black;
+    
+   } 
+ .button{
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+   text-align: center;
+  text-decoration: none;
+  display: inline-block;
+ 
+ }
+ .bg {
+  /* The image used */
+  background-image: url("https://d27jswm5an3efw.cloudfront.net/app/uploads/2019/09/file-upload-site-3.jpg");
+  /* Full height */
+  height: 610px;
+   /* Center and scale the image nicely */
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}

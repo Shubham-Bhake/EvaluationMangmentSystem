@@ -1,0 +1,72 @@
+.table {
+    width: 100%;
+    /* background-color:aqua; */
+  }
+ .data {
+  overflow: auto;
+ } 
+ 
+.mat-column-feedbackId {
+  width: 120px;
+  max-width: 150px;
+  word-wrap: break-word;
+  min-width:100px;
+
+}
+.mat-column-employeeId {
+  width: 120px;
+  max-width: 150px;
+  word-wrap: break-word;
+  min-width:100px;
+
+}
+.mat-column-employeeName {
+  width: 120px;
+  max-width: 150px;
+  word-wrap: break-word;
+  min-width:100px;
+
+}
+.mat-column-overallExperience {
+  width: 120px;
+  max-width: 150px;
+  word-wrap: break-word;
+  min-width:100px;
+
+}
+.mat-column-projectExperience {
+  width: 120px;
+  max-width: 150px;
+  word-wrap: break-word;
+  min-width:100px;
+
+}
+ .mat-column-comments {
+  width: 150px;
+  max-width: 200px;
+  word-wrap: break-word;
+  min-width:100px;
+
+}
+
+.mat-column-suggestion {
+  width: 150px;
+  max-width: 200px;
+  word-wrap: break-word;
+  min-width:100px;
+
+}
+.mat-column-createdBy {
+  width: 150px;
+  max-width: 200px;
+  word-wrap: break-word;
+  min-width:100px;
+
+}
+.mat-column-createdOn {
+  width: 120px;
+  max-width: 150px;
+  word-wrap: break-word;
+  min-width:100px;
+
+}

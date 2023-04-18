@@ -1,0 +1,85 @@
+<div>
+    <nav class="navbar navbar-expand navbar-secondary bg-secondary px-2">
+        <a class="navbar-brand px-4" style="color: rgb(58, 9, 235);">List Of Employees</a>
+        
+            <ul class="navbar-nav me-auto">
+
+                <li class="nav-item">
+                    <button class="btn-success" style="margin-left: 10px;" (click)="exportexcel()">Export to
+                        Excel</button>
+                </li>
+                <!-- <li class="nav-item">
+                    <button class="btn-info" style="margin-left: 10px;" [routerLink]="['/fileupload']">Upload</button> -->
+<!-- 
+                </li>
+                <li class="nav-item">
+                    <button class="btn-primary" style="margin-left: 10px;" [routerLink]="['/createskill']">Add
+                        Skill</button>
+                    </li> -->
+
+                <!-- <li class="nav-item">
+                    <button class="btn-dark" style="margin-left: 10px;" [routerLink]="['/Onboard']">Back</button>
+                </li> -->
+            </ul>
+            <form class="d-flex me-">
+                <input class="form-control me-2" type="search" placeholder="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+    
+    </nav>
+
+
+    <table class="table" id="excel-table">
+
+        <!--  <thead>  <tr>-->
+        <tr>
+            <th>Employee Id
+            <th><br>
+            <th>Employee Name
+            <th><br>
+            <th>Email Id</th><br>
+            <th>Designation</th><br>
+            <th>Grade</th><br><br>&nbsp;
+            <th>Resource Type</th><br>&nbsp;
+            <th>Joining Date</th><br>
+            <th>Total Experinces</th>&nbsp;&nbsp;
+            <th>Reporting Manager</th><br>
+            <th>Current Location</th><br>
+            <th>Current Allocation</th><br><br>
+            <th>Project</th>&nbsp;&nbsp;&nbsp;
+            <th>Actions</th>
+        </tr>
+
+        <!--  </thead> 
+    <tbody> -->
+        <tr *ngFor="let Employee of employees">
+            <td>{{Employee.employeeId}}</td><br>
+            <td>{{Employee.employeeName}}</td><br>
+            <td>{{Employee.email}}</td><br>
+            <td>{{Employee.designation}}</td><br>
+            <td>{{Employee.grade}}</td><br>
+            <td>{{Employee.resourceType}}</td><br>
+            <td>{{Employee.doj}}</td><br>
+            <td>{{Employee.totalExp}}</td><br>
+            <td>{{Employee.irm}}</td><br>
+            <td>{{Employee.currentLocation}}</td><br>
+            <td>{{Employee.currentAllocation}}</td><br>&nbsp;
+            <td>{{Employee.project}}</td><br><br>
+            <th>
+                <!--  <a class="btn" (click)="employeeDetails(Employee.employeeId)"></a>
+            <i class="fa fa-download" aria-hidden="true" style='font: size 60px;color:blue'
+    
+            ></i> -->
+                <!-- <button (click)="employeeDetails(Employee.id)" class="btn btn-primary btn-sm"> View</button><br>
+                <button (click)="updateEmployee(Employee.id)" class="btn btn-info btn-sm"> Edit</button><br>
+                <button (click)="deleteEmployee(Employee.id)" class="btn btn-danger btn-sm">Delete</button><br> -->
+
+         <i (click)="employeeDetails(Employee.id)" class="fa-solid fa-list"></i>
+         <i (click)="updateEmployee(Employee.id)" class="fa-solid fa-pen"></i>    
+         <i (click)="deleteEmployee(Employee.id)" class="fa-solid fa-trash-can"></i>
+            </th>
+        </tr>
+
+        <!--  </tbody> -->
+    </table>
+</div>

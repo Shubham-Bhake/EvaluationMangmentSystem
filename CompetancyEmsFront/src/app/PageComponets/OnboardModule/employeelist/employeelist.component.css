@@ -1,0 +1,51 @@
+h2{
+    text-align: center;
+    color: rgb(93, 196, 247);
+ 
+}
+
+
+  table {
+    border: 1px solid rgb(173, 212, 248);
+    border-collapse: collapse;
+    font-size: small;
+
+  }
+
+  button {
+   
+    border: none;
+    color: white;
+    padding:4px 8px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 10px;
+  
+  } 
+
+
+
+
+
+i{
+  
+ margin-left: 10px;
+  
+background-color:antiquewhite;
+  
+  
+  }
+  
+  
+  
+
+
+
+
+
+
+  

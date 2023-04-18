@@ -1,0 +1,28 @@
+<form (ngSubmit)="onSubmit()">
+  
+    <div class="col-md-6">
+      
+        <label for="skillId">Skill Id:</label>
+        <input type="skillId" class="form-control" placeholder="skillId" name="skillId"[(ngModel)]="skill.skillId" required #skillId="ngModel"
+        [class.is-invalid]="skillId.invalid && skillId.touched " >
+        <small class="text-danger"[class.d-none]="skillId.valid || skillId.untouched ">Skill id is required </small>
+      </div>
+      
+      <div class="col-md-6">
+        <label for="skillName">Skill Name:</label>
+        <select="skillName" class="form-control" placeholder="skill Name" name="skillName"[(ngModel)]="skill.skillName" required #skillName="ngModel"
+        [class.is-invalid]="skillName.invalid && skillName.touched " >
+        <small class="text-danger"[class.d-none]="skillName.valid || skillName.untouched ">Skill Nameis required </small>
+        <option>Java Shared Pool</option>  
+        <option>Java</option>  
+        <option>Angular</option>  
+        <option>SAP</option> 
+        <option>Testing</option> 
+    </select> 
+    
+    </div>
+
+      
+      <div class="button"> 
+        <button class="btn btn-success" type="submit" > Submit</button>
+      </div>

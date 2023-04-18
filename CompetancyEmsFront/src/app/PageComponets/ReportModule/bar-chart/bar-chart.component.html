@@ -1,0 +1,15 @@
+<div class="content" role="main">
+  <div class="mat-elevation-z8">
+    <mat-form-field>
+    <button mat-raised-button color="primary" [routerLink]="['/report']">Back</button>
+  </mat-form-field >
+    <mat-label [hidden]="ishidden" mat-dialog-content>Employee Name : &emsp; </mat-label>
+    <mat-label [hidden]="ishidden" mat-dialog-title>{{ feedback?.employeeName }}  </mat-label>
+
+    <mat-label [hidden]="ishidden" mat-dialog-content>  Feedback Id :  &emsp;</mat-label>
+    <mat-label [hidden]="ishidden" mat-dialog-title>{{ feedback?.feedbackId }}</mat-label>
+  </div>
+</div>
+<div class="chart-container">
+  <canvas id="MyChart">{{ chart }}</canvas>
+</div>

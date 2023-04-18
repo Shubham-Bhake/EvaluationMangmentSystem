@@ -1,0 +1,42 @@
+ <!-- <input type="file"  class="file-input"
+       [accept]="requiredFileType"
+       (change)="onFileSelected($event)" #fileUpload>
+    
+
+<div class="file-input">
+
+   {{fileName || "Uploaded File her."}}
+
+    <button mat-mini-fab color="primary" class="upload-btn"
+      (click)="fileUpload.click()">
+        <mat-icon>attach_file</mat-icon>
+
+    </button>
+
+</div>
+
+<div class="progress">
+
+  <mat-progress-bar class="progress-bar" mode="determinate"
+                    [value]="uploadProgress" *ngIf="uploadProgress">
+
+  </mat-progress-bar>
+
+  <mat-icon class="cancel-upload" (click)="cancelUpload()" 
+            *ngIf="uploadProgress">delete_forever</mat-icon>
+
+</div>
+
+
+  -->
+
+  
+  <div class="file">
+    <div class="bg">
+
+<input type="text" (change)="getName(name.value)" #name/><br>
+<input type="file" (change)="getFile($event)" /><br>
+
+<input   class="button" type="button"  (click)="submitData()"  value="Upload"/>
+</div>
+</div>

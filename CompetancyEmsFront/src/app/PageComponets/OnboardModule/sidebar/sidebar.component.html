@@ -1,0 +1,58 @@
+<!-- <mat-select>
+  <mat-drawer #drawer [mode]="mode.value">I'm a drawer</mat-drawer>
+ <mat-card>
+    <mat-action-list>
+        <div mat-subheader>Menu</div>
+
+    <button routerLink="/Onboard" mat-list-item>
+      <mat-icon mat-list-icon>home</mat-icon> Home
+    </button>
+    <button mat-list-item routerLink="/Onboard/employeelist">
+      <mat-icon mat-list-icon>account_circle</mat-icon>Employee_List
+    </button>
+
+    <div *ngIf="userRole=='Competency Member'">
+    <button mat-list-item routerLink="/Onboard/createemployee">
+      <mat-icon mat-list-icon>list</mat-icon>AddEmployee
+    </button>
+  </div>
+    <button mat-list-item routerLink="/Onboard/fileupload">
+        <mat-icon mat-list-icon>upload</mat-icon>Fileupload
+      </button>
+      
+      <button mat-list-item routerLink="/Onboard/FeedbacklistfromclientComponent">
+        <mat-icon mat-list-icon>assignment</mat-icon>Feedback
+      </button>
+      <button mat-list-item routerLink="/Onboard/report">
+        <mat-icon mat-list-icon>assignment</mat-icon>Report
+      </button>
+    </mat-action-list>
+</mat-card>
+</mat-select> -->
+
+ <!-- <mat-drawer-container class="example-container">
+  <mat-drawer-content> -->
+    <!-- <mat-form-field appearance="fill"> -->
+      <!-- <mat-label>Menu</mat-label> -->
+      <!-- <mat-select value="Home"> -->
+   
+     <mat-select>
+        <mat-card>
+        <mat-option value="Home" routerLink="/Onboard">Home</mat-option>
+        <mat-option value="Employee_List" routerLink="/Onboard/employeelist">Employee_List</mat-option>
+        <div *ngIf="userRole=='Competency Member'">
+        <mat-option value="AddEmployee"routerLink="/Onboard/createemployee">AddEmployee</mat-option>
+        </div>
+        <mat-option value="Fileupload"routerLink="/Onboard/fileupload">Fileupload</mat-option>
+        <mat-option value="Feedback"routerLink="/Onboard/FeedbacklistfromclientComponent">Feedback</mat-option>
+        <mat-option value="Report"routerLink="/Onboard/report">Report</mat-option>
+
+        <div *ngIf="userRole=='Competency Member'">
+        <mat-option value="Feedback"routerLink="/add-feedback">AddFeedback</mat-option>
+      </div>
+    </mat-card>
+      </mat-select>
+    
+    <!-- </mat-form-field> -->
+  <!-- </mat-drawer-content>
+</mat-drawer-container> -->
