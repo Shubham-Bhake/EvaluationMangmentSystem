@@ -1,0 +1,223 @@
+2023-03-17 11:35:01.262  INFO 6836 --- [restartedMain] c.y.ems.CompetencyEmsProjectApplication  : Starting CompetencyEmsProjectApplication using Java 17.0.3 on YPH1016146LT with PID 6836 (D:\PIP_Final_Backup\under ide\Competency-EMS-Project\target\classes started by shubham.bhake in D:\PIP_Final_Backup\under ide\Competency-EMS-Project)
+2023-03-17 11:35:01.311  INFO 6836 --- [restartedMain] c.y.ems.CompetencyEmsProjectApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-03-17 11:35:01.407  INFO 6836 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-17 11:35:01.408  INFO 6836 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-17 11:35:04.670  INFO 6836 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-17 11:35:04.849  INFO 6836 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 171 ms. Found 7 JPA repository interfaces.
+2023-03-17 11:35:05.652  INFO 6836 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-17 11:35:05.665  INFO 6836 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-17 11:35:05.666  INFO 6836 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-17 11:35:05.877  INFO 6836 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-17 11:35:05.878  INFO 6836 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4469 ms
+2023-03-17 11:35:06.068  INFO 6836 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-17 11:35:06.161  INFO 6836 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-03-17 11:35:06.445  INFO 6836 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-17 11:35:06.525  INFO 6836 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-17 11:35:06.725  INFO 6836 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-17 11:35:06.742  INFO 6836 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-03-17 11:35:09.534  INFO 6836 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-17 11:35:09.543  INFO 6836 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-17 11:35:09.947  WARN 6836 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-17 11:35:10.521  INFO 6836 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6fb2bd97, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5a305ea0, org.springframework.security.web.context.SecurityContextPersistenceFilter@e38d90b, org.springframework.security.web.header.HeaderWriterFilter@56ddfaee, org.springframework.security.web.authentication.logout.LogoutFilter@121bd0b2, com.yash.ems.config.JwtAuthenticationFilter@6279d02d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@60d1b06b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@dcb0692, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@16172daa, org.springframework.security.web.session.SessionManagementFilter@797fffbd, org.springframework.security.web.access.ExceptionTranslationFilter@145a28ec, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@71dea687]
+2023-03-17 11:35:10.562  INFO 6836 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-03-17 11:35:10.721  INFO 6836 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-17 11:35:11.026  INFO 6836 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-17 11:35:11.027  INFO 6836 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-03-17 11:35:11.044  INFO 6836 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-03-17 11:35:11.074  INFO 6836 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-03-17 11:35:11.418  INFO 6836 --- [restartedMain] c.y.ems.CompetencyEmsProjectApplication  : Started CompetencyEmsProjectApplication in 11.347 seconds (JVM running for 13.023)
+2023-03-17 11:36:01.983  INFO 6836 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-17 11:36:01.984  INFO 6836 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-17 11:36:01.989  INFO 6836 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2023-03-17 11:36:02.029  INFO 6836 --- [http-nio-8080-exec-1] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 11:36:02.030  INFO 6836 --- [http-nio-8080-exec-1] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 11:36:02.107  INFO 6836 --- [http-nio-8080-exec-2] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 11:36:02.107  INFO 6836 --- [http-nio-8080-exec-2] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 11:36:02.748  INFO 6836 --- [http-nio-8080-exec-2] c.y.e.controller.AuthenticateController  : token genrated
+2023-03-17 11:36:02.826  INFO 6836 --- [http-nio-8080-exec-3] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 11:36:02.827  INFO 6836 --- [http-nio-8080-exec-3] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 11:36:18.465  INFO 6836 --- [http-nio-8080-exec-6] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 11:36:18.466  INFO 6836 --- [http-nio-8080-exec-6] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 11:36:18.480  INFO 6836 --- [http-nio-8080-exec-6] c.y.e.controller.AuthenticateController  : token genrated
+2023-03-17 11:36:35.064  INFO 6836 --- [http-nio-8080-exec-9] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 11:36:35.064  INFO 6836 --- [http-nio-8080-exec-9] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 11:36:35.077  INFO 6836 --- [http-nio-8080-exec-9] c.y.e.controller.AuthenticateController  : token genrated
+2023-03-17 11:38:38.425  INFO 6836 --- [http-nio-8080-exec-2] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 11:38:38.426  INFO 6836 --- [http-nio-8080-exec-2] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 11:38:38.449  INFO 6836 --- [http-nio-8080-exec-2] c.y.e.controller.AuthenticateController  : token genrated
+2023-03-17 11:41:40.259  INFO 6836 --- [http-nio-8080-exec-5] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 11:41:40.259  INFO 6836 --- [http-nio-8080-exec-5] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 11:41:40.278  INFO 6836 --- [http-nio-8080-exec-5] c.y.e.controller.AuthenticateController  : token genrated
+2023-03-17 11:41:50.511  INFO 6836 --- [http-nio-8080-exec-8] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 11:41:50.512  INFO 6836 --- [http-nio-8080-exec-8] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 11:41:50.526  INFO 6836 --- [http-nio-8080-exec-8] c.y.e.controller.AuthenticateController  : token genrated
+2023-03-17 11:42:01.425  INFO 6836 --- [http-nio-8080-exec-1] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 11:42:01.426  INFO 6836 --- [http-nio-8080-exec-1] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 11:42:01.442  INFO 6836 --- [http-nio-8080-exec-1] c.y.e.controller.AuthenticateController  : token genrated
+2023-03-17 11:42:45.930  INFO 6836 --- [http-nio-8080-exec-4] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 11:42:45.931  INFO 6836 --- [http-nio-8080-exec-4] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 11:42:45.955  INFO 6836 --- [http-nio-8080-exec-4] c.y.e.controller.AuthenticateController  : token genrated
+2023-03-17 11:42:55.622  INFO 6836 --- [http-nio-8080-exec-7] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 11:42:55.623  INFO 6836 --- [http-nio-8080-exec-7] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 11:42:55.640  INFO 6836 --- [http-nio-8080-exec-7] c.y.e.controller.AuthenticateController  : token genrated
+2023-03-17 11:52:47.133  INFO 6836 --- [http-nio-8080-exec-10] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 11:52:47.134  INFO 6836 --- [http-nio-8080-exec-10] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 11:52:47.174  INFO 6836 --- [http-nio-8080-exec-10] c.y.ems.controller.EmployeeController    : In Employee Controller....get Employee data 
+2023-03-17 11:52:47.176  INFO 6836 --- [http-nio-8080-exec-10] c.yash.ems.service.impl.EmployeeService  : In Employee Service....get all Employee data 
+2023-03-17 13:17:56.623  INFO 6836 --- [http-nio-8080-exec-2] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 13:17:56.645  INFO 6836 --- [http-nio-8080-exec-2] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 13:18:06.101  INFO 6836 --- [http-nio-8080-exec-4] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 13:18:06.101  INFO 6836 --- [http-nio-8080-exec-4] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 13:18:15.643  INFO 6836 --- [http-nio-8080-exec-6] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 13:18:15.643  INFO 6836 --- [http-nio-8080-exec-6] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 13:18:17.918  INFO 6836 --- [http-nio-8080-exec-7] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 13:18:17.918  INFO 6836 --- [http-nio-8080-exec-7] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 13:18:51.014  INFO 6836 --- [http-nio-8080-exec-9] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 13:18:51.015  INFO 6836 --- [http-nio-8080-exec-9] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 13:18:55.746  INFO 6836 --- [http-nio-8080-exec-1] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 13:18:55.747  INFO 6836 --- [http-nio-8080-exec-1] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 13:18:58.733  INFO 6836 --- [http-nio-8080-exec-2] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 13:18:58.734  INFO 6836 --- [http-nio-8080-exec-2] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 13:19:00.767  INFO 6836 --- [http-nio-8080-exec-3] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 13:19:00.767  INFO 6836 --- [http-nio-8080-exec-3] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 14:09:33.386  INFO 6836 --- [http-nio-8080-exec-5] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 14:09:33.479  INFO 6836 --- [http-nio-8080-exec-5] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 14:09:33.981  INFO 6836 --- [http-nio-8080-exec-6] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 14:09:33.983  INFO 6836 --- [http-nio-8080-exec-6] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 14:09:34.516  INFO 6836 --- [http-nio-8080-exec-6] c.y.e.controller.AuthenticateController  : token genrated
+2023-03-17 14:09:34.616  INFO 6836 --- [http-nio-8080-exec-7] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 14:09:34.617  INFO 6836 --- [http-nio-8080-exec-7] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 14:09:48.082  INFO 6836 --- [http-nio-8080-exec-10] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 14:09:48.082  INFO 6836 --- [http-nio-8080-exec-10] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 14:09:48.100  INFO 6836 --- [http-nio-8080-exec-10] c.y.e.controller.AuthenticateController  : token genrated
+2023-03-17 14:14:02.030  INFO 6836 --- [http-nio-8080-exec-3] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 14:14:02.050  INFO 6836 --- [http-nio-8080-exec-3] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 14:14:02.315  INFO 6836 --- [http-nio-8080-exec-3] c.y.e.controller.AuthenticateController  : token genrated
+2023-03-17 14:14:20.517  INFO 6836 --- [http-nio-8080-exec-6] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 14:14:20.517  INFO 6836 --- [http-nio-8080-exec-6] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 14:14:20.538  INFO 6836 --- [http-nio-8080-exec-6] c.y.e.controller.AuthenticateController  : token genrated
+2023-03-17 14:16:31.899  INFO 6836 --- [http-nio-8080-exec-9] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 14:16:31.908  INFO 6836 --- [http-nio-8080-exec-9] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 14:16:32.057  INFO 6836 --- [http-nio-8080-exec-9] c.y.e.controller.AuthenticateController  : token genrated
+2023-03-17 14:19:05.181  INFO 6836 --- [http-nio-8080-exec-2] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 14:19:05.182  INFO 6836 --- [http-nio-8080-exec-2] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 14:19:05.212  INFO 6836 --- [http-nio-8080-exec-2] c.y.e.controller.AuthenticateController  : token genrated
+2023-03-17 14:20:39.538  INFO 6836 --- [http-nio-8080-exec-5] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 14:20:39.539  INFO 6836 --- [http-nio-8080-exec-5] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 14:20:54.708  INFO 6836 --- [http-nio-8080-exec-7] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 14:20:54.709  INFO 6836 --- [http-nio-8080-exec-7] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 15:50:50.029  INFO 6836 --- [http-nio-8080-exec-9] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 15:50:50.149  INFO 6836 --- [http-nio-8080-exec-9] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 15:50:50.532  INFO 6836 --- [http-nio-8080-exec-10] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 15:50:50.532  INFO 6836 --- [http-nio-8080-exec-10] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 15:50:50.948  INFO 6836 --- [http-nio-8080-exec-10] c.y.e.controller.AuthenticateController  : token genrated
+2023-03-17 15:50:51.037  INFO 6836 --- [http-nio-8080-exec-1] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 15:50:51.038  INFO 6836 --- [http-nio-8080-exec-1] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 16:57:17.109  INFO 6836 --- [http-nio-8080-exec-4] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 16:57:17.175  INFO 6836 --- [http-nio-8080-exec-4] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 16:57:17.476  INFO 6836 --- [http-nio-8080-exec-5] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 16:57:17.476  INFO 6836 --- [http-nio-8080-exec-5] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 16:57:17.970  INFO 6836 --- [http-nio-8080-exec-5] c.y.e.controller.AuthenticateController  : token genrated
+2023-03-17 16:57:18.016  INFO 6836 --- [http-nio-8080-exec-6] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 16:57:18.016  INFO 6836 --- [http-nio-8080-exec-6] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 16:58:10.218  INFO 6836 --- [http-nio-8080-exec-8] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 16:58:10.219  INFO 6836 --- [http-nio-8080-exec-8] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 16:58:15.097  INFO 6836 --- [http-nio-8080-exec-9] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 16:58:15.098  INFO 6836 --- [http-nio-8080-exec-9] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 17:00:25.879  INFO 6836 --- [http-nio-8080-exec-2] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 17:00:25.880  INFO 6836 --- [http-nio-8080-exec-2] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 17:03:15.509  INFO 6836 --- [http-nio-8080-exec-4] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 17:03:15.510  INFO 6836 --- [http-nio-8080-exec-4] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 17:03:15.612  INFO 6836 --- [http-nio-8080-exec-4] c.y.e.controller.AuthenticateController  : token genrated
+2023-03-17 17:14:57.676  INFO 6836 --- [http-nio-8080-exec-7] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 17:14:57.690  INFO 6836 --- [http-nio-8080-exec-7] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 17:14:58.011  INFO 6836 --- [http-nio-8080-exec-7] c.y.e.controller.AuthenticateController  : token genrated
+2023-03-17 17:15:08.935  INFO 6836 --- [http-nio-8080-exec-10] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 17:15:08.936  INFO 6836 --- [http-nio-8080-exec-10] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 17:15:08.943  INFO 6836 --- [http-nio-8080-exec-10] c.y.e.controller.AuthenticateController  : token genrated
+2023-03-17 17:24:15.406  INFO 6836 --- [http-nio-8080-exec-3] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 17:24:15.406  INFO 6836 --- [http-nio-8080-exec-3] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 17:24:15.421  INFO 6836 --- [http-nio-8080-exec-3] c.y.e.controller.AuthenticateController  : token genrated
+2023-03-17 18:11:02.593  WARN 6836 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=36m20s203ms78µs700ns).
+2023-03-17 19:02:07.187  WARN 6836 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=35m4s278ms244µs700ns).
+2023-03-17 19:23:28.150  WARN 6836 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m50s764ms734µs100ns).
+2023-03-17 19:25:56.443  INFO 6836 --- [http-nio-8080-exec-6] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 19:25:56.444  INFO 6836 --- [http-nio-8080-exec-6] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 19:31:30.434  INFO 6836 --- [http-nio-8080-exec-8] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 19:31:30.450  INFO 6836 --- [http-nio-8080-exec-8] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 19:31:30.800  INFO 6836 --- [http-nio-8080-exec-9] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 19:31:30.802  INFO 6836 --- [http-nio-8080-exec-9] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 19:31:31.120  INFO 6836 --- [http-nio-8080-exec-9] c.y.e.controller.AuthenticateController  : token genrated
+2023-03-17 19:31:31.233  INFO 6836 --- [http-nio-8080-exec-10] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 19:31:31.233  INFO 6836 --- [http-nio-8080-exec-10] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 20:12:32.889  WARN 6836 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m4s480ms84µs100ns).
+2023-03-17 20:45:22.572  INFO 6836 --- [http-nio-8080-exec-3] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 20:45:22.648  INFO 6836 --- [http-nio-8080-exec-3] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 20:45:23.018  INFO 6836 --- [http-nio-8080-exec-4] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 20:45:23.018  INFO 6836 --- [http-nio-8080-exec-4] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 20:45:23.360  INFO 6836 --- [http-nio-8080-exec-4] c.y.e.controller.AuthenticateController  : token genrated
+2023-03-17 20:45:23.437  INFO 6836 --- [http-nio-8080-exec-5] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 20:45:23.437  INFO 6836 --- [http-nio-8080-exec-5] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 20:59:21.095  INFO 6836 --- [http-nio-8080-exec-8] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 20:59:21.097  INFO 6836 --- [http-nio-8080-exec-8] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 20:59:32.952  INFO 6836 --- [http-nio-8080-exec-10] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 20:59:32.952  INFO 6836 --- [http-nio-8080-exec-10] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 20:59:32.970  INFO 6836 --- [http-nio-8080-exec-1] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 20:59:32.971  INFO 6836 --- [http-nio-8080-exec-1] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 20:59:40.997  INFO 6836 --- [http-nio-8080-exec-4] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 20:59:40.997  INFO 6836 --- [http-nio-8080-exec-4] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 21:09:41.592  INFO 6836 --- [http-nio-8080-exec-6] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 21:09:41.598  INFO 6836 --- [http-nio-8080-exec-6] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 21:09:41.958  INFO 6836 --- [http-nio-8080-exec-6] c.y.e.controller.AuthenticateController  : token genrated
+2023-03-17 21:26:39.475  INFO 6836 --- [http-nio-8080-exec-9] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 21:26:39.544  INFO 6836 --- [http-nio-8080-exec-9] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 21:26:39.909  INFO 6836 --- [http-nio-8080-exec-1] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 21:26:39.909  INFO 6836 --- [http-nio-8080-exec-1] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 21:26:40.239  INFO 6836 --- [http-nio-8080-exec-1] c.y.e.controller.AuthenticateController  : token genrated
+2023-03-17 21:26:40.309  INFO 6836 --- [http-nio-8080-exec-10] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 21:26:40.311  INFO 6836 --- [http-nio-8080-exec-10] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 21:35:36.195  INFO 6836 --- [http-nio-8080-exec-4] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 21:35:36.212  INFO 6836 --- [http-nio-8080-exec-4] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 21:35:36.569  INFO 6836 --- [http-nio-8080-exec-4] c.y.e.controller.AuthenticateController  : token genrated
+2023-03-17 21:35:47.505  INFO 6836 --- [http-nio-8080-exec-6] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 21:35:47.505  INFO 6836 --- [http-nio-8080-exec-6] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 21:35:47.519  INFO 6836 --- [http-nio-8080-exec-6] c.y.e.controller.AuthenticateController  : token genrated
+2023-03-17 21:36:21.739  INFO 6836 --- [http-nio-8080-exec-8] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 21:36:21.740  INFO 6836 --- [http-nio-8080-exec-8] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 21:36:21.756  INFO 6836 --- [http-nio-8080-exec-8] c.y.e.controller.AuthenticateController  : token genrated
+2023-03-17 22:22:16.323  INFO 6836 --- [http-nio-8080-exec-10] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 22:22:16.431  INFO 6836 --- [http-nio-8080-exec-10] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 22:22:16.783  INFO 6836 --- [http-nio-8080-exec-3] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 22:22:16.783  INFO 6836 --- [http-nio-8080-exec-3] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 22:22:17.270  INFO 6836 --- [http-nio-8080-exec-3] c.y.e.controller.AuthenticateController  : token genrated
+2023-03-17 22:22:17.379  INFO 6836 --- [http-nio-8080-exec-2] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 22:22:17.380  INFO 6836 --- [http-nio-8080-exec-2] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 22:46:15.699  INFO 6836 --- [http-nio-8080-exec-6] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 22:46:15.755  INFO 6836 --- [http-nio-8080-exec-6] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 22:46:17.571  INFO 6836 --- [http-nio-8080-exec-7] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 22:46:17.571  INFO 6836 --- [http-nio-8080-exec-7] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 22:46:17.572  INFO 6836 --- [http-nio-8080-exec-8] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 22:46:17.572  INFO 6836 --- [http-nio-8080-exec-8] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 22:46:30.490  INFO 6836 --- [http-nio-8080-exec-10] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 22:46:30.491  INFO 6836 --- [http-nio-8080-exec-10] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 23:40:17.524  INFO 6836 --- [http-nio-8080-exec-2] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 23:40:17.601  INFO 6836 --- [http-nio-8080-exec-2] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 23:40:31.163  INFO 6836 --- [http-nio-8080-exec-5] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 23:40:31.164  INFO 6836 --- [http-nio-8080-exec-5] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 23:40:33.801  INFO 6836 --- [http-nio-8080-exec-7] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 23:40:33.801  INFO 6836 --- [http-nio-8080-exec-7] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 23:41:30.243  INFO 6836 --- [http-nio-8080-exec-9] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 23:41:30.243  INFO 6836 --- [http-nio-8080-exec-9] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 23:41:30.360  INFO 6836 --- [http-nio-8080-exec-1] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 23:41:30.360  INFO 6836 --- [http-nio-8080-exec-1] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 23:41:30.638  INFO 6836 --- [http-nio-8080-exec-1] c.y.e.controller.AuthenticateController  : token genrated
+2023-03-17 23:41:30.667  INFO 6836 --- [http-nio-8080-exec-10] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 23:41:30.667  INFO 6836 --- [http-nio-8080-exec-10] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 23:42:14.283  INFO 6836 --- [http-nio-8080-exec-4] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 23:42:14.283  INFO 6836 --- [http-nio-8080-exec-4] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 23:42:14.295  INFO 6836 --- [http-nio-8080-exec-4] c.y.e.controller.AuthenticateController  : token genrated
+2023-03-17 23:42:22.745  INFO 6836 --- [http-nio-8080-exec-7] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 23:42:22.745  INFO 6836 --- [http-nio-8080-exec-7] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
+2023-03-17 23:42:22.755  INFO 6836 --- [http-nio-8080-exec-7] c.y.e.controller.AuthenticateController  : token genrated
+2023-03-17 23:57:50.657  INFO 6836 --- [http-nio-8080-exec-1] c.y.ems.config.JwtAuthenticationFilter   : Invalid token , not start with bearer string
+2023-03-17 23:57:50.684  INFO 6836 --- [http-nio-8080-exec-1] c.y.ems.config.JwtAuthenticationFilter   : Token is not valid
